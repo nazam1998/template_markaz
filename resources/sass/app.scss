@@ -6,10 +6,40 @@
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 
 .top-bar{
-    background-color: #3fb8af;
+    background-color: #3FB8AF;
     color: white;
+    padding: 15px 0;
     .contact-info{
         font-weight: 200;
         font-size: 14px;
+    }
+}
+.site-header{
+    background-color: #20272b;
+    padding: 20px 0;
+    img{
+        vertical-align: middle;
+        border-style: none;
+    }
+    nav{
+        background-color: #20272b;
+        color: white;
+        li>a{
+            color: white;
+            text-transform: uppercase;
+            font-weight: lighter;
+            font-size: 14px;
+        }
+    }
+    button{
+        color: #3FB8AF;
+        border: #3FB8AF solid 1.5px;
+        margin: 0 auto;
+        text-align: center;
+        i{
+            color: #3FB8AF;
+            padding: 15px 1px;
+            font-weight: bold;
+        }
     }
 }

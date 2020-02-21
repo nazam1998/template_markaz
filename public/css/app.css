@@ -16822,12 +16822,48 @@ readers do not read off random characters that represent icons */
 }
 
 .top-bar {
-  background-color: #3fb8af;
+  background-color: #3FB8AF;
   color: white;
+  padding: 15px 0;
 }
 
 .top-bar .contact-info {
   font-weight: 200;
   font-size: 14px;
+}
+
+.site-header {
+  background-color: #20272b;
+  padding: 20px 0;
+}
+
+.site-header img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.site-header nav {
+  background-color: #20272b;
+  color: white;
+}
+
+.site-header nav li > a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.site-header button {
+  color: #3FB8AF;
+  border: #3FB8AF solid 1.5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-header button i {
+  color: #3FB8AF;
+  padding: 15px 1px;
+  font-weight: bold;
 }
 

@@ -16821,6 +16821,15 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+body {
+  background-image: url("http://www.markaz-al-forqane.be/wp-content/uploads/2018/03/footer1.jpg");
+  background-position: left top;
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  overflow-x: hidden;
+}
+
 .top-bar {
   background-color: #3FB8AF;
   color: white;
@@ -16865,5 +16874,86 @@ readers do not read off random characters that represent icons */
   color: #3FB8AF;
   padding: 15px 1px;
   font-weight: bold;
+}
+
+#radio {
+  margin-top: 20px;
+  box-shadow: 24px 3px -24px magenta;
+}
+
+#radio:after {
+  display: inline-block;
+  clear: both;
+  content: " Radio du Markaz Al Forqane";
+  position: relative;
+  left: 0;
+  bottom: 0;
+  max-width: 300px;
+  height: 40px;
+  width: 50%;
+  /* or 100px */
+  border-bottom: 1px solid #3FB8AF;
+  box-shadow: #3FB8AF -1px 15px 2px 0px;
+  margin: 0 auto;
+  padding: 4px 0px;
+  white-space: nowrap;
+}
+
+#radio:before {
+  display: inline-block;
+  clear: both;
+  content: "";
+  position: relative;
+  left: 0;
+  bottom: -7px;
+  max-width: 300px;
+  height: 1px;
+  width: 100%;
+  /* or 100px */
+  border-bottom: 1px solid #3FB8AF;
+  margin: 0 auto;
+  padding: 4px 0px;
+}
+
+footer {
+  background-color: #20272b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer span {
+  white-space: nowrap;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3FB8AF;
+  text-decoration: none;
+}
+
+footer a:active {
+  color: #3FB8AF;
+  text-decoration: none;
+}
+
+footer li a {
+  position: relative;
+  left: -60px;
+}
+
+footer input {
+  border: #3FB8AF;
+}
+
+footer button {
+  color: #3FB8AF;
+  font-weight: bold;
+  border: #3FB8AF solid 1.5px;
+  background: transparent;
 }
 

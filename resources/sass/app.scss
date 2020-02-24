@@ -5,41 +5,141 @@
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 
-.top-bar{
+body {
+    background-image: url('http://www.markaz-al-forqane.be/wp-content/uploads/2018/03/footer1.jpg');
+    background-position: left top;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    overflow-x: hidden;
+}
+
+.top-bar {
     background-color: #3FB8AF;
     color: white;
     padding: 15px 0;
-    .contact-info{
+
+    .contact-info {
         font-weight: 200;
         font-size: 14px;
     }
 }
-.site-header{
+
+.site-header {
     background-color: #20272b;
     padding: 20px 0;
-    img{
+
+    img {
         vertical-align: middle;
         border-style: none;
     }
-    nav{
+
+    nav {
         background-color: #20272b;
         color: white;
-        li>a{
+
+        li>a {
             color: white;
             text-transform: uppercase;
             font-weight: lighter;
             font-size: 14px;
         }
     }
-    button{
+
+    button {
         color: #3FB8AF;
         border: #3FB8AF solid 1.5px;
         margin: 0 auto;
         text-align: center;
-        i{
+
+        i {
             color: #3FB8AF;
             padding: 15px 1px;
             font-weight: bold;
         }
+    }
+}
+
+#radio {
+
+    margin-top: 20px;
+    box-shadow: 24px 3px -24px magenta;
+
+
+    &:after {
+        display: inline-block;
+        clear: both;
+        content: " Radio du Markaz Al Forqane";
+        position: relative;
+        left: 0;
+        bottom: 0;
+        max-width: 300px;
+        height: 40px;
+        width: 50%;
+        /* or 100px */
+        border-bottom: 1px solid #3FB8AF;
+        box-shadow: #3FB8AF -1px 15px 2px 0px;
+        margin: 0 auto;
+        padding: 4px 0px;
+        white-space: nowrap;
+    }
+
+    &:before {
+
+        display: inline-block;
+        clear: both;
+        content: "";
+        position: relative;
+        left: 0;
+        bottom: -7px;
+        max-width: 300px;
+        height: 1px;
+        width: 100%;
+        /* or 100px */
+        border-bottom: 1px solid #3FB8AF;
+        margin: 0 auto;
+        padding: 4px 0px;
+
+    }
+}
+
+footer {
+    background-color: #20272b;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    span {
+        white-space: nowrap;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: #3FB8AF;
+            text-decoration: none;
+        }
+
+        &:active {
+            color: #3FB8AF;
+            text-decoration: none;
+        }
+    }
+    li{
+        a{
+            position: relative;
+            left: -60px;
+        }
+    }
+    input{
+        border: #3FB8AF;
+    }
+    button{
+        color: #3FB8AF;
+        font-weight: bold;
+        border: #3FB8AF solid 1.5px;
+        background: transparent;
     }
 }
